@@ -1,6 +1,27 @@
 {
   "welcomeFile": "index.html",
   "authenticationMethod": "route",
+  "cors": [
+    {
+      "uriPattern": "(.*)",
+      "allowedMethods": [
+        "GET"      
+      ],
+      "allowedOrigin": [
+        {
+          "host": "my-web-approuter-anxious-lynx-ty.cfapps.us10-001.hana.ondemand.com",
+          "protocol": "https"
+        }
+      ],
+      "maxAge": 3600,
+      "allowedHeaders": [
+        "Authorization",
+        "Content-Type"
+      ],
+      "allowedCredentials": true
+    }
+  ],
+
   "routes": [
     {
       "source": "^/user-api(.*)",
