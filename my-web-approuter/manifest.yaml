@@ -1,0 +1,8 @@
+---
+applications:
+- name: my-web-approuter
+  buildpacks:
+  - https://github.com/cloudfoundry/nodejs-buildpack
+  random-route: true
+  services:
+  - my-xsuaa
