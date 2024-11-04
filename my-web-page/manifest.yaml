@@ -1,0 +1,5 @@
+---
+ applications:
+ - name: my-web-page
+   buildpacks:
+   - https://github.com/cloudfoundry/staticfile-buildpack
