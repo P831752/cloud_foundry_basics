@@ -1,0 +1,9 @@
+{
+    "xsappname": "my03-xsuaa",
+    "tenant-mode": "dedicated",
+    "oauth2-configuration": {
+        "redirect-uris": [
+            "https://03-odata-backend-*cfapps.us10-001.hana.ondemand.com/login/callback"
+        ]
+    }
+}

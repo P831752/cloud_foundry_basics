@@ -1,9 +1,9 @@
 ---
 applications:
-- name: 03_odata_backend
+- name: 04-instance-dest
   buildpacks:
   - https://github.com/cloudfoundry/nodejs-buildpack
   random-route: true
   services:
-  - my-xsuaa
-  - backendDestination
+  - my04-xsuaa
+  - backendInstDest

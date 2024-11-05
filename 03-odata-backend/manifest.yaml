@@ -1,0 +1,9 @@
+---
+applications:
+- name: 03-odata-backend
+  buildpacks:
+  - https://github.com/cloudfoundry/nodejs-buildpack
+  random-route: true
+  services:
+  - my03-xsuaa
+  - backendDestination
