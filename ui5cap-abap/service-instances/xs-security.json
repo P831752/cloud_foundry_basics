@@ -1,0 +1,10 @@
+{
+    "xsappname": "ui5cap-xsuaa",
+    "tenant-mode": "dedicated",
+    "oauth2-configuration": {
+        "redirect-uris": [
+            "https://ui5cap-approuter*cfapps.us10-001.hana.ondemand.com/login/callback",
+			"http://localhost:5001"
+        ]
+    }
+}

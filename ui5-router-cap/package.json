@@ -1,0 +1,12 @@
+{
+    "name": "ui5-router-cap",
+    "workspaces": [
+        "ui5-router-cap/*"
+    ],
+    "scripts": {
+        "dev": "npm run dev -w=approuter"
+    },
+    "sapux": [
+      "packages/uimodule"
+    ]
+}

@@ -1,0 +1,13 @@
+---
+applications:
+- name: ui5cap-approuter
+  buildpacks:
+  - https://github.com/cloudfoundry/nodejs-buildpack
+  memory: 256MB
+  disk_quota: 256MB
+  random-route: true
+  path:
+  services:
+  - ui5cap-xsuaa
+  - ui5cap-destination
+  - ui5cap-html5-runtime
